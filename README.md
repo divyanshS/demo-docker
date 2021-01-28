@@ -8,7 +8,7 @@ A quick guide and demo around how to setup your docker using a node app.
 
 ### Steps:
 1. Clone the repo | `https://github.com/divyanshS/demo-docker.git`
-1. `cd demo-docker`
+1. `cd demo-docker/src`
 1. `docker build -t simplewebapp .`
 1. `docker run simplewebapp`
 1. Go to the link with the ip-address (localhost wont't work, explained below). This ip-address is container's IP, not your machine IP.
